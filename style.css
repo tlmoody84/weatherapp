@@ -11,3 +11,117 @@ html {
     border-width:10px;
   } 
 
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color:  rgba(112, 86, 243, 0.5);; 
+    border-radius: 10px;
+    box-shadow: 0 0 100px rgba(163, 1, 196, 0.3); 
+    margin-top: 115px; 
+    margin-bottom: 115px; 
+  }
+ 
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color:  rgba(112, 86, 243, 0.5); 
+    border-radius: 10px;
+    box-shadow: 0 0 100px rgba(163, 1, 196, 0.3); 
+    margin-top: 115px; 
+    margin-bottom: 115px; 
+  } 
+
+  h1 { 
+    font-family: cursive;
+    font-size: 75px;
+    margin: auto;
+    max-width: 100%;
+    margin-bottom: 35px;
+    margin-top: 35px;
+  }
+
+  #city{
+    font-size: 45px;
+    font-family: cursive;
+    margin-bottom: 35px;
+    margin-top: 35px;
+  }
+
+  #location{
+    color:white;
+    font-size: 45px;
+    font-family: cursive;
+    margin-bottom: 35px;
+    margin-top: 35px;
+  }
+  
+  #temperature{
+    color: blue;
+    font-size: 25px;
+    font-family: cursive;
+    margin-bottom: 35px;
+    margin-top: 35px;
+  }
+  
+  #description{
+    font-size: 25px;
+    font-family: cursive;
+    margin-bottom: 35px;
+    margin-top: 35px;
+  }
+  
+  #speed{
+    color: gold;
+    margin-bottom: 35px;
+    margin-top: 35px; 
+  }
+  
+  #gust{
+    font-weight: bold;
+    color: black;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    
+  }
+ 
+  input[type="text"] {
+    width: 50%;
+    padding: 5px;
+    margin: 3px;
+    border: 3px solid #a2f888;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+button {
+  max-width: 100%;
+  background-color: #0fbff5;
+  color: #2d0ceb;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+#searchButton{
+  padding: 5px;
+  margin: 3px;
+  border-radius: 5px;
+  max-width: 100%;
+}
+
+.weather-info {
+  margin-top: 30px;
+  font-size: 20px;
+  
+}
+
+footer{
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
