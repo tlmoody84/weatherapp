@@ -14,6 +14,6 @@
 
 ###### googled to learn how to change the temperature from celcius to farenheit by using imperial as my units using the imgae below
 
-![alt text](image.png)
+![alt text](https://github.com/tlmoody84/weatherapp/blob/main/Screenshot%202024-05-13%20205638.png)
 
 ###### Bootstrap used to upgrade the look of the app
