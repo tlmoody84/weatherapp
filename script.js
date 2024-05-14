@@ -15,3 +15,25 @@ searchButton.addEventListener('click', () => {
     fetchWeather(location);
   }
 });
+function fetchWeather(location) {
+  let url = `${apiUrl}?q=${location}&appid=${apiKey}&units=imperial`;
+  fetch(url)
+    .then(response => response.json())
+
+    .then(data => {
+      locationElement.textContent = data.name;
+      temperatureElement.textContent = `${Math.round(data.main.temp)}°F`;
+      descriptionElement.textContent = data.weather[0].description;
+      windElement.textContent = `Wind Speed: ${data.wind.speed} mph`;
+      gustElement.textContent = `Wind Gust: ${data.wind.gust} mph`;
+    })
+    .catch(error => {
+      console.log(error);
+      locationElement.textContent = 'Error';
+      temperatureElement.textContent = 'Error';
+      descriptionElement.textContent = 'Error';
+      windElement.textContent = 'Error';
+      gustElement.textContent = 'Error';
+    });
+
+}
